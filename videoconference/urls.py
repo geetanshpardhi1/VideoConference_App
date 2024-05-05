@@ -7,5 +7,6 @@ urlpatterns = [
     path('dashboard/',dashboard,name='dashboard'),
     path('meeting/',video_call_view,name='meeting'),
     path('logout/',logout_view,name='logout'), 
-    path('join-meeting/',join_room,name='join_room'), 
+    path('join-meeting/',join_room,name='join_room'),
+    path('',index, name='index'), 
 ]
