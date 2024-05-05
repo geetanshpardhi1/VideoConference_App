@@ -1,5 +1,5 @@
 # Use the official Python image with the desired version
-FROM python
+FROM python:3.12
 
 # Set environment variables for Python
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -21,4 +21,4 @@ COPY . /app/
 EXPOSE 8000
 
 # Command to run the Django development server
-CMD ["python", "manage.py", "runserver", "127.0.0.1:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
