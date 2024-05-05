@@ -38,6 +38,7 @@ To run this Django application using Docker, follow these steps:
 
 2. Run the Docker container:
 
+   ```bash
    docker run -p 8000:8000 geetanshpardhi/videoconference_django:v1
 
 3. Access the Django application in your web browser:
