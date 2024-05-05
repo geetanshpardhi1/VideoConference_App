@@ -31,12 +31,17 @@ This project is a web-based video conferencing application built with Django, in
 ## Docker Usage
 To run this Django application using Docker, follow these steps:
 
-1. Clone the repository to your local machine.
-2. cd django-video-conference.
-3. docker build -t django-video-conference.
-4. docker run -p 8000:8000 django-video-conference.
-5. Access the Django application in your web browser:
-    http://localhost:8000/
+1. Pull the Docker image from Docker Hub:
+
+   ```bash
+   docker pull geetanshpardhi/videoconference_django:v1
+
+2. Run the Docker container:
+
+   docker run -p 8000:8000 geetanshpardhi/videoconference_django:v1
+
+3. Access the Django application in your web browser:
+     Open your web browser and go to http://localhost:8000/ to access the Django Video Conferencing App.
 
 ## Contributing
 
